@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue; /* Changed background color to blue */
+    background-image: url('https://images.unsplash.com/photo-1741290723082-bd54c16a21a8?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Added background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: black; /* Text color adjusted for readability on a dark background */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #29194e;
+}
+
+h1 {
+    color: #44126d; /* Dark purple color */
+}
+
+label {
+    font-size: 1.2em;
+    color: #912fd3; /* Medium purple color */
+}
+
+select, #userInput, #send, #start {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6d1eb8; /* Medium purple border */
+}
+
+#send, #start {
+    background-color: #5f0f5b; /* Dark purple button background */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#send:hover, #start:hover {
+    background-color: #c52fd3; /* bright pink on hover */
+}
+
+#chatbox {
+    margin-top: 20px;
+}
+
+#messages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #602fd3; /* Medium purple border */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffebfe; /* Light purple background */
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #5f147c; /* Dark purple text color */
+}
